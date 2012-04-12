@@ -1,4 +1,8 @@
-# Simple IOS Piecharts
+# Simple IOS Widgets
+
+A collection of simple widgets for IOS.
+
+## Pie Charts
 
 A ridiculously simple pie-chart library for IOS apps.
 
@@ -18,10 +22,10 @@ Simple copy the files into your application and then do something like this:
     IHID_PieChartSegment* segment2 = [IHID_PieChartSegment initWithPercentage:0.3 color:[UIColor redColor]];
     pieChartView.segments = [NSArray arrayWithObjects:segment1, segment2, nil];
 
-### Questions
+## Questions
 Email me or contact me on Github. I'm happy to help.
 
-### Licence:
+## Licence:
 (The MIT License)
 
 Copyright © 2012:
